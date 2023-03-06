@@ -33,7 +33,7 @@ This section provides full installation instructions of Insight UI and all its d
   `bitcore-node install https://github.com/VleppoOfficial/insight-api-alysides`\
   `bitcore-node install https://github.com/VleppoOfficial/insight-ui-alysides#generic-ui`
 5. Make sure to either setup an Alysides instance for your chain locally or have access to a running local or remote Alysides node.
-6. In the machine where Alysides is running (can be the same as where bitcore-node is set up), create or edit the "<your chain>.conf" file, located by default in ".komodo/<your chain>/". Make sure the file includes the following lines:\
+6. In the machine where Alysides is running (can be the same as where bitcore-node is set up), create or edit the ".conf" file, located by default in ".komodo/your_chain_name/". Make sure the file includes the following lines:\
   `rpcuser=<your secure rpc user>`\
   `rpcpassword=<your secure rpc password>`\
   `rpcport=<your chain's rpc port>`\
