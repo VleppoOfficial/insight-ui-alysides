@@ -33,17 +33,17 @@ This section provides full installation instructions of Insight UI and all its d
   `bitcore-node install https://github.com/VleppoOfficial/insight-api-alysides`
   `bitcore-node install https://github.com/VleppoOfficial/insight-ui-alysides#generic-ui`
 5. Make sure to either setup an Alysides instance for your chain locally or have access to a running local or remote Alysides node.
-6. In the machine where Alysides is running (can be the same as where bitcore-node is set up), create or edit the "<your chain>.conf" file, located by default in ".komodo/<your chain>/". Make sure the file includes the following lines:
-  `rpcuser=<your secure rpc user>`
-  `rpcpassword=<your secure rpc password>`
-  `rpcport=<your chain's rpc port>`
-  `server=1`
-  `txindex=1`
-  `addressindex=1`
-  `timestampindex=1`
-  `spentindex=1`
-  `zmqpubrawtx=tcp://127.0.0.1:28332`
-  `zmqpubhashblock=tcp://127.0.0.1:28332`
+6. In the machine where Alysides is running (can be the same as where bitcore-node is set up), create or edit the "<your chain>.conf" file, located by default in ".komodo/<your chain>/". Make sure the file includes the following lines:\
+  `rpcuser=<your secure rpc user>`\
+  `rpcpassword=<your secure rpc password>`\
+  `rpcport=<your chain's rpc port>`\
+  `server=1`\
+  `txindex=1`\
+  `addressindex=1`\
+  `timestampindex=1`\
+  `spentindex=1`\
+  `zmqpubrawtx=tcp://127.0.0.1:28332`\
+  `zmqpubhashblock=tcp://127.0.0.1:28332`\
 - Make sure port 28332 is not blocked for both the bitcore-node and Alysides machines (including if both are being run on the same machine). The port number can be changed if necessary.
 7. In the mynode folder, edit the bitcore-node.json file. Make sure to specify the Alysides node's IP address in rpchost (set to 127.0.0.1 if localhost), and the correct rpcuser, rpcpassword, rpcport and zmqpubrawtx according to the same values as in the node's .conf file.
 8. Launch your Alysides node (if connected solely to a local node). 
