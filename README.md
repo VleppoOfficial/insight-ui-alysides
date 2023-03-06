@@ -25,12 +25,12 @@ This section provides full installation instructions of Insight UI and all its d
 2. Make sure you have ZeroMQ installed:
     - Linux: `sudo apt install libzmq3-dev`
     - OSX: `brew install zeromq`
-3. Install bitcore-node-alysides:
-  `npm install -g https://github.com/VleppoOfficial/bitcore-node-alysides`
-  `bitcore-node create mynode`
+3. Install bitcore-node-alysides:\
+  `npm install -g https://github.com/VleppoOfficial/bitcore-node-alysides`\
+  `bitcore-node create mynode`\
   `cd mynode`
-4. Install Insight:
-  `bitcore-node install https://github.com/VleppoOfficial/insight-api-alysides`
+4. Install Insight:\
+  `bitcore-node install https://github.com/VleppoOfficial/insight-api-alysides`\
   `bitcore-node install https://github.com/VleppoOfficial/insight-ui-alysides#generic-ui`
 5. Make sure to either setup an Alysides instance for your chain locally or have access to a running local or remote Alysides node.
 6. In the machine where Alysides is running (can be the same as where bitcore-node is set up), create or edit the "<your chain>.conf" file, located by default in ".komodo/<your chain>/". Make sure the file includes the following lines:\
@@ -48,7 +48,7 @@ This section provides full installation instructions of Insight UI and all its d
 7. In the mynode folder, edit the bitcore-node.json file. Make sure to specify the Alysides node's IP address in rpchost (set to 127.0.0.1 if localhost), and the correct rpcuser, rpcpassword, rpcport and zmqpubrawtx according to the same values as in the node's .conf file.
 8. Launch your Alysides node (if connected solely to a local node). 
 9. Launch Insight: `bitcore-node start`
-    - Note: After this, you may want to restart Alysides and use the -reindex launch parameter when starting Alysides again in order for Insight to successfully capture past transactions.
+    - **Note:** After this, you may want to restart Alysides and use the `-reindex` launch parameter when starting Alysides again in order for Insight to successfully capture past transactions.
 
 The server should now be running by default at `http://localhost:3001/insight/`. The API endpoints will be available by default at: `http://localhost:3001/insight-api-alysides/`.
 
