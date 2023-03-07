@@ -4,7 +4,7 @@
     <div class="container" data-ng-if="!hideSNavbar">
       <div class="col-md-8 text-left">
           <h3 translate>Address</h3> {{address.addrStr}}
-          <span class="btn-copy" clip-copy="address.addrStr"></span>
+          <span class="btn-copy" ngclipboard data-clipboard-text="address.addrStr"></span>
       </div>
       <div class="col-md-4">
         <span class="txvalues txvalues-primary"><strong translate>Final Balance</strong> {{$root.currency.getConvertion(address.balance)}}</span>
