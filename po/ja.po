@@ -263,7 +263,7 @@ msgid "Confirmed by"
 msgstr "採掘者"
 
 #: public/views/status.html
-msgid "Mining Difficulty"
+msgid "Difficulty"
 msgstr "採掘難易度"
 
 #: public/views/block.html

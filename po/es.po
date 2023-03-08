@@ -240,7 +240,7 @@ msgid "Confirmed by"
 msgstr "Minado por"
 
 #: public/views/status.html
-msgid "Mining Difficulty"
+msgid "Difficulty"
 msgstr "Dificultad de Minado"
 
 #: public/views/block.html

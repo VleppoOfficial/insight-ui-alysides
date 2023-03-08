@@ -261,7 +261,7 @@ msgid "Confirmed by"
 msgstr "Майнер"
 
 #: public/views/status.html:104
-msgid "Mining Difficulty"
+msgid "Difficulty"
 msgstr "Сложность майнинга"
 
 #: public/views/status.html:108

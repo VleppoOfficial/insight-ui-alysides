@@ -236,7 +236,7 @@ msgstr "Lade..."
 
 #: public/views/transaction.html
 msgid "Confirmed Time"
-msgstr "Block gefunden (Mining)"
+msgstr "Block gefunden (Staking)"
 
 #: public/views/block.html public/views/block_list.html
 #: public/views/index.html
@@ -244,7 +244,7 @@ msgid "Confirmed by"
 msgstr "Gefunden von"
 
 #: public/views/status.html
-msgid "Mining Difficulty"
+msgid "Difficulty"
 msgstr "Schwierigkeitgrad"
 
 #: public/views/block.html
