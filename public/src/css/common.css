@@ -103,7 +103,7 @@ margin-left: 0;
 }
 
 .table-hover>tbody>tr:hover>td, .table-hover>tbody>tr:hover>th {
-  background-color: #F0F7E2;
+  background-color: #e2e4f7;
 }
 .navbar { min-height: 64px; }
 .navbar-default .navbar-toggle { 
@@ -175,7 +175,7 @@ margin-left: 0;
 }
 
 .navbar-form .form-control {
-  background-color: #bdc7c2;
+  background-color: #bdc3c7;
   border-radius: 3px;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
@@ -325,8 +325,8 @@ margin-left: 0;
   border-radius: 2px;
 }
 .btn-primary {
-  background-color: #8DC429;
-  border: 2px solid #76AF0F;
+  background-color: #298ec4;
+  border: 2px solid #0f62af;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active,
@@ -372,7 +372,7 @@ margin-left: 0;
 }
 
 .txvalues-primary {
-  background-color: #8DC429;
+  background-color: #298ec4;
 }
 
 .txvalues-default {
@@ -395,7 +395,7 @@ margin-left: 0;
   font-size: 14px;
   font-weight: normal;
 }
-.progress-bar-info { background-color: #8DC429; }
+.progress-bar-info { background-color: #298ec4; }
 
 /* Set the fixed height of the footer here */
 #footer {
@@ -675,7 +675,7 @@ margin-left: 0;
 }
 
 a.v_highlight_more {
-  background-color: #F0F7E2;
+  background-color: #e2e4f7;
   color: #333;
 }
 
@@ -835,7 +835,7 @@ a.v_highlight_more {
   }
   .txvalues-primary {
     background: none;
-    color: #8DC429;
+    color: #298ec4;
   }
   .txvalues-default {
     background: none;
