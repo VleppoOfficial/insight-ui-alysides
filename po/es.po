@@ -32,7 +32,7 @@ msgstr ""
 "<strong>insight</strong>  es un <a href=\"http://live.insight.is/\" target="
 "\"_blank\">explorador de bloques de Alysides open-source</a> con un completo "
 "conjunto de REST y APIs de websockets que pueden ser usadas para escribir "
-"monederos de Komodos y otras aplicaciones que requieran consultar un "
+"monederos de Alysides y otras aplicaciones que requieran consultar un "
 "explorador de bloques.  Obtén el código en <a href=\"http://github.com/"
 "bitpay/insight\" target=\"_blank\">el repositorio abierto de Github</a>."
 
