@@ -50,7 +50,7 @@ This section provides full installation instructions of Insight UI and all its d
 9. Launch Insight: `bitcore-node start`
     - **Note:** After this, you may want to restart Alysides and use the `-reindex` launch parameter when starting Alysides again in order for Insight to successfully capture past transactions.
 
-The server should now be running by default at `http://localhost:3001/insight/`. The API endpoints will be available by default at: `http://localhost:3001/insight-api-alysides/`.
+The server should now be running by default at `http://localhost:3001/`. The API endpoints will be available by default at: `http://localhost:3001/insight-api-alysides/`.
 
 ## Development
 
