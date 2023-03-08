@@ -23,16 +23,16 @@ msgstr "404 Страница не найдена :("
 
 #: public/views/index.html:71
 msgid ""
-"<a href=\"https://komodoplatform.com\" target=\"_blank\" title=\"Komodo "
-"Platform\">Komodo Platform</a> strives to accelerate the adoption of "
+"<a href=\"https://komodoplatform.com\" target=\"_blank\" title=\"Alysides "
+"Platform\">Alysides Platform</a> strives to accelerate the adoption of "
 "blockchain technologies around the globe and to lead the world in blockchain "
-"integration. All of the Komodo’s unique and cutting-edge technologies are "
+"integration. All of the Alysides’s unique and cutting-edge technologies are "
 "open-source and available to everyone."
 msgstr ""
-"<a href=\"https://komodoplatform.com\" target=\"_blank\" title=\"Komodo "
-"Platform\">Komodo Platform</a> strives to accelerate the adoption of "
+"<a href=\"https://komodoplatform.com\" target=\"_blank\" title=\"Alysides "
+"Platform\">Alysides Platform</a> strives to accelerate the adoption of "
 "blockchain technologies around the globe and to lead the world in blockchain "
-"integration. All of the Komodo’s unique and cutting-edge technologies are "
+"integration. All of the Alysides’s unique and cutting-edge technologies are "
 "open-source and available to everyone."
 
 #: public/views/address.html:20 public/views/address.html:26
@@ -193,11 +193,11 @@ msgid "Input"
 msgstr "Вход"
 
 #: public/views/messages_verify.html:72
-msgid "Komodo comes with a way of signing arbitrary messages."
-msgstr "Komodo comes with a way of signing arbitrary messages."
+msgid "Alysides comes with a way of signing arbitrary messages."
+msgstr "Alysides comes with a way of signing arbitrary messages."
 
 #: public/views/status.html:79
-msgid "Komodo node information"
+msgid "Alysides node information"
 msgstr "Информация об узле"
 
 #: public/views/status.html:61
@@ -252,12 +252,12 @@ msgid "Message"
 msgstr "Сообщение"
 
 #: public/views/transaction.html:65
-msgid "Mined Time"
+msgid "Confirmed Time"
 msgstr "Время получения"
 
 #: public/views/block.html:69 public/views/block_list.html:43
 #: public/views/index.html:19
-msgid "Mined by"
+msgid "Confirmed by"
 msgstr "Майнер"
 
 #: public/views/status.html:104
@@ -448,7 +448,7 @@ msgstr "Для этого адреса нет транзакций."
 #: public/views/transaction_sendraw.html:49
 msgid ""
 "This form can be used to broadcast a raw transaction in hex format over\n"
-"        the Komodo network."
+"        the Alysides network."
 msgstr ""
 "Эта форма может быть использована для отправки raw транзакции в hex\n"
 "        формате через сеть."
@@ -456,7 +456,7 @@ msgstr ""
 #: public/views/messages_verify.html:75
 msgid ""
 "This form can be used to verify that a message comes from\n"
-"        a specific Komodo address."
+"        a specific Alysides address."
 msgstr ""
 "Эта форма может быть использована для проверки\n"
 "        отправителя (адреса) сообщения."
@@ -536,8 +536,8 @@ msgid "Waiting for transactions..."
 msgstr "Ожидание транзакций..."
 
 #: public/views/index.html:63
-msgid "What is Komodo?"
-msgstr "What is Komodo?"
+msgid "What is Alysides?"
+msgstr "What is Alysides?"
 
 #: public/views/block_list.html:34
 msgid "by date."
@@ -548,9 +548,9 @@ msgid "first seen at"
 msgstr "первое появление"
 
 #: public/views/transaction/tx.html:17
-msgid "mined"
+msgid "confirmed"
 msgstr "дата"
 
 #: public/views/block_list.html:9
-msgid "mined on:"
+msgid "confirmed on:"
 msgstr "дата:"
