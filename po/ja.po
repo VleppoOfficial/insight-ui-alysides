@@ -571,7 +571,7 @@ msgstr "採掘日時:"
 #~ msgid "Merkle Root"
 #~ msgstr "Merkleルート"
 
-#~ msgid "Cryptographic nonce"
+#~ msgid "Nonce"
 #~ msgstr "Nonce"
 
 #~ msgid "Ooops!"
