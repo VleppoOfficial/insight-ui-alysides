@@ -21,13 +21,13 @@
 </div>
 <div class="row line-mid">
   <div class="col-md-12">
-    <div class="row" data-ng-if="!tx.bindingSig && (!tx.vjoinsplit || tx.vjoinsplit.length==0)">
+    <!-- <div class="row" data-ng-if="!tx.bindingSig && (!tx.vjoinsplit || tx.vjoinsplit.length==0)">
       <div class="col-md-12 transaction-vin-vout">
         <div class="ellipsis">
           <span translate>No Shielded Spends and Outputs</span>
         </div>
       </div>
-    </div>
+    </div> -->
     <div class="row" data-ng-if="(tx.spendDescs && tx.spendDescs.length > 0) || (tx.outputDescs && tx.outputDescs.length > 0)">
       <div class="panel panel-default">
         <div class="panel-body transaction-vin-vout">
@@ -75,13 +75,13 @@
         </div>
       </div>
     </div>
-    <div class="row" data-ng-if="(!tx.vjoinsplit || tx.vjoinsplit.length == 0) && !tx.bindingSig">
+    <!-- <div class="row" data-ng-if="(!tx.vjoinsplit || tx.vjoinsplit.length == 0) && !tx.bindingSig">
       <div class="col-md-12 transaction-vin-vout">
         <div class="ellipsis">
           <span translate>No JoinSplits</span>
         </div>
       </div>
-    </div>
+    </div> -->
     <div class="row" data-ng-if="tx.vjoinsplit && tx.vjoinsplit.length != 0">
 
       <!-- <<< Simple view -->

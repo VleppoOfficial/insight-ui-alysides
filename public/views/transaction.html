@@ -75,11 +75,11 @@
           <td data-ng-show="!tx.blockhash" class="text-muted text-right">Unconfirmed</td>
         </tr>
         <tr data-ng-show="tx.locktime">
-          <td><strong>LockTime</strong></td>
+          <td><strong><a href="https://en.bitcoin.it/wiki/NLockTime" target="_blank">LockTime</a></strong></td>
           <td class="text-muted text-right">{{tx.locktime}}</td>
         </tr>
         <tr data-ng-show="tx.isCoinBase">
-          <td><strong>Coinbase</strong></td>
+          <td><strong><a href="https://en.bitcoin.it/wiki/Coinbase" target="_blank">Coinbase</a></strong></td>
           <td class="text-muted text-right">
             <div class="ellipsis">
                 <!-- <span class="btn-copy ng-isolate-scope" clip-copy="tx.vin[0].coinbase"></span> -->

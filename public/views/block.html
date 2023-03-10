@@ -65,14 +65,14 @@
             <td><strong translate>Timestamp</strong></td>
             <td class="text-right text-muted">{{block.time * 1000 | date:'medium'}}</td>
           </tr>
-          <tr data-ng-show="block.poolInfo">
+          <!-- <tr data-ng-show="block.poolInfo">
             <td><strong translate>Confirmed by</strong></td>
             <td class="text-right text-muted">
               <a href="{{block.poolInfo.url}}" target="_blank" title="{{block.poolInfo.poolName}}">{{block.poolInfo.poolName}}</a>
             </td>
-          </tr>
+          </tr> -->
           <tr>
-            <td><strong>Merkle Root</strong></td>
+            <td><strong><a href="https://www.investopedia.com/terms/m/merkle-root-cryptocurrency.asp" target="_blank">Merkle Root</a></strong></td>
             <td class="text-right text-muted">
               <div class="ellipsis">
                 <!-- <span class="btn-copy" clip-copy="block.merkleroot"></span> -->
@@ -90,10 +90,10 @@
       <div class="col-md-6">
         <table class="table" style="table-layout: fixed">
           <tbody>
-          <tr>
+          <!-- <tr>
             <td> <strong translate>Difficulty</strong></td>
             <td class="text-right text-muted">{{block.difficulty}}</td>
-          </tr>
+          </tr> -->
           <tr>
             <td> <strong>Bits</strong></td>
             <td class="text-right text-muted">{{block.bits}}</td>
@@ -106,24 +106,24 @@
             <td> <strong translate>Version</strong></td>
             <td class="text-right text-muted">{{block.version}}</td>
           </tr>
-          <tr>
-            <td> <strong>Nonce</strong></td>
+          <!-- <tr>
+            <td> <strong><a href="https://en.wikipedia.org/wiki/Cryptographic_nonce" target="_blank">Cryptographic nonce</a></strong></td>
             <td class="text-right text-muted">
               <div class="ellipsis">
-                <!-- <span class="btn-copy" clip-copy="block.nonce"></span> -->
+                <span class="btn-copy" clip-copy="block.nonce"></span>
                 <span>{{block.nonce}}</span>
               </div>
             </td>
-          </tr>
-          <tr>
+          </tr> -->
+          <!-- <tr>
             <td><strong>Solution</strong></td>
             <td class="text-right text-muted">
               <div class="ellipsis">
-                <!-- <span class="btn-copy" clip-copy="block.solution"></span> -->
+                <span class="btn-copy" clip-copy="block.solution"></span>
                 <span>{{block.solution}}</span>
               </div>
             </td>
-          </tr>
+          </tr> -->
           <tr data-ng-show="block.nextblockhash">
             <td><strong translate>Next Block</strong></td>
             <td class="text-right"><a href="block/{{block.nextblockhash}}">{{block.height+1}}</a></td>
