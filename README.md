@@ -14,6 +14,7 @@ This section provides full installation instructions of Insight UI and all its d
 - A node running [Vleppo Alysides](https://github.com/VleppoOfficial/alysides)
 - GNU/Linux x86_32/x86_64, or OSX 64bit
 - Node.js v4 (use [nvm](https://github.com/nvm-sh/nvm) to manage Node.js versions)
+- Python 2.7x
 - ZeroMQ (libzmq3-dev for Ubuntu/Debian or zeromq on OSX)
 - ~200GB of disk storage
 - ~8GB of RAM
